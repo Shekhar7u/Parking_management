@@ -4,12 +4,14 @@ using namespace std;
 int main()
 {
 k:
+//variable initializatu=ion
     int b_amount = 0, c_amount = 0, m_amount = 0, bc_amount = 0;
     int b_count = 0, c_count = 0, m_count = 0, bc_count = 0;
     int Total_amount = 0;
     int Total_vehicle = 0;
     int x;
 h:
+//Home display menu
     system("cls");
     cout << "                    .......\"PARKING MANAGEMENT SYSTEM\".......            " << endl
          << endl
@@ -24,7 +26,7 @@ h:
          << "8.   Exit" << endl
          << "Enter Your Choice" << endl;
     cin >> x;
-
+//condition check
     switch (x)
     {
     case 1:
